@@ -1,0 +1,92 @@
+/* Reset de estilos para elementos principais */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Definindo fontes e cores padrão para o corpo */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Fundo cinza claro */
+    color: #333; /* Texto preto */
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #35445f; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  /* Estilo da barra de navegação */
+  nav {
+    background-color: #49648a; /* Fundo cinza escuro */
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Estilo dos links de navegação */
+  nav a {
+    color: #fff; /* Texto branco */
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+    transition: color 0.3s ease; /* Transição suave da cor ao passar o mouse */
+  }
+  
+  /* Efeito de hover nos links de navegação */
+  nav a:hover {
+    color: #ffc107; /* Cor amarela ao passar o mouse */
+  }
+  
+  /* Estilo para o link de navegação ativo */
+  nav a.active {
+    color: #ffc107; /* Cor amarela para o link ativo */
+    border-bottom: 2px solid #ffc107; /* Linha amarela na parte inferior do link ativo */
+  }
+  
+  /* Estilo do conteúdo principal */
+  main {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralização horizontal */
+    padding: 2rem;
+  }
+  
+  /* Estilos para títulos */
+   h2 {
+    color: #333; /* Títulos em preto */
+  }
+  
+  /* Espaçamento entre títulos e parágrafos */
+  h2 {
+    margin-top: 1.5rem;
+  }
+  
+  /* Espaçamento e altura da linha dos parágrafos */
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Estilo dos botões de destaque */
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ffc107; /* Cor amarela */
+    color: #333; /* Texto preto */
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Transição suave da cor ao passar o mouse */
+  }
+  
+  /* Efeito de hover nos botões */
+  .button:hover {
+    background-color: #ffca28; /* Cor amarela mais clara ao passar o mouse */
+  }
+  
+  /* Estilo para links de navegação ativos */
+  nav a.active {
+    color: #ffc107; /* Cor amarela para o link ativo */
+    border-bottom: 2px solid #ffc107; /* Linha amarela na parte inferior do link ativo */
+  }
+  
